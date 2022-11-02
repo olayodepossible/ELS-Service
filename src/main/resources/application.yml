@@ -1,2 +1,4 @@
 elasticsearch:
+  port: 9200
+  hostname: ${ELASTIC_HOST:localhost}
   url: ${ELASTIC_HOST:localhost}:${ELASTIC_PORT:9200}

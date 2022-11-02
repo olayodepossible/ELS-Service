@@ -14,8 +14,9 @@ public class ServiceConfiguration extends AbstractElasticsearchConfiguration {
     @Bean
     @Override
     public RestHighLevelClient elasticsearchClient() {
-       final ClientConfiguration config = ClientConfiguration.builder().connectedTo(elasticSearchUrl).build();
+        final ClientConfiguration config = ClientConfiguration.builder().connectedTo(elasticSearchUrl).build();
 
         return RestClients.create(config).rest();
     }
+
 }

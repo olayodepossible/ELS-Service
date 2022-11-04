@@ -1,7 +1,10 @@
 {
-  "properties" : {
-    "id": { "type" :  "keyword"},
-    "number": { "type" :  "text"}
+  "mappings": {
+    "properties" : {
+      "id": { "type" :  "keyword"},
+      "number": { "type" :  "text"}
+
+    }
 
   }
 
